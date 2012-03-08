@@ -17,7 +17,8 @@ formatClassName = (filename) ->
   filename.split('_').map(capitalize).join('')
 
 module.exports = class IcedCoffeeScriptCompiler
-  compilerType: 'javascript'
+  brunchPlugin: yes
+  type: 'javascript'
   extension: 'iced'
   generators:
     backbone: do ->
