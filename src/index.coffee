@@ -1,4 +1,5 @@
 iced = require 'iced-coffee-script'
+sysPath = require 'path'
 
 # Example
 # 
