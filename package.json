@@ -1,6 +1,6 @@
 {
   "name": "iced-coffee-script-brunch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds IcedCoffeeScript support to brunch.",
   "author": "Paul Miller (http://paulmillr.com/)",
   "homepage": "https://github.com/brunch/iced-coffee-script-brunch",
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "coffee-script": "1.2.0",
-    "iced-coffee-script": "1.2.0p"
+    "iced-coffee-script": "1.2.0t"
   },
   "devDependencies": {
     "mocha": "0.12.1",
