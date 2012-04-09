@@ -1,3 +1,6 @@
+## iced-coffee-script-brunch 1.1.0 (April 09, 2012)
+* Added windows support.
+
 ## iced-coffee-script-brunch 1.0.1 (April 09, 2012)
 * Update iced-coffee-script to 1.2.0t.
 * Include vendor/iced-coffee-script.js to files.
