@@ -17,7 +17,7 @@
         var _this = this;
         ++this.count;
         return function() {
-          var inner_params, _ref;
+          var inner_params, _ref, __slice = [].slice;
           inner_params = 1 <= arguments.length ? __slice.call(arguments, 0) : [];
           if (defer_params != null) {
             if ((_ref = defer_params.assign_fn) != null) {
