@@ -1,3 +1,7 @@
+## iced-coffee-script-brunch 1.2.0 (May 12, 2012)
+* Added chaplin generator template.
+* Fixed iced coffee `__slice` issue.
+
 ## iced-coffee-script-brunch 1.1.1 (April 15, 2012)
 * Fixed error reporting when installing the package.
 

@@ -22,14 +22,39 @@ module.exports = class IcedCoffeeScriptCompiler
   type: 'javascript'
   extension: 'iced'
   generators:
-    backbone: do ->
-      types = {}
-      ['collection', 'model', 'router', 'view'].forEach (type) ->
-        parent = formatClassName type
-        types[type] = (fileName) ->
-          className = formatClassName fileName
-          "class exports.#{className} extends Backbone.#{parent}\n"
-      types
+    backbone:
+      model: (name) ->
+        """module.exports = class #{formatClassName name} extends Backbone.Model"""
+
+      view: (name) ->
+        """template = require 'views/templates/#{name}'
+
+module.exports = class #{formatClassName name}View extends Backbone.View
+  template: template
+"""
+
+    chaplin:
+      controller: (name) ->
+        """Controller = require 'controllers/controller'
+#{formatClassName name} = 'models/#{name}'
+#{formatClassName name}View = require 'views/#{name}'
+
+module.exports = class #{formatClassName name}Controller extends Controller
+  historyURL: ''
+"""
+      model: (name) ->
+        """Model = require 'models/model'
+
+module.exports = class #{formatClassName name} extends Model
+"""
+
+      view: (name) ->
+        """View = require 'views/view'
+template = require 'views/templates/#{name}'
+
+module.exports = class #{formatClassName name}View extends View
+  template: template
+"""
 
   constructor: (@config) ->
     null
