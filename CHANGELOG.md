@@ -1,3 +1,7 @@
+# iced-coffee-script-brunch 1.5.0 (January 13, 2012)
+* Updated iced-coffee-script to 1.4.0a.
+* Improved installation process.
+
 # iced-coffee-script-brunch 1.3.0 (June 29, 2012)
 * Updated iced-coffee-script to 1.3.3b.
 * Added node.js 0.8 and 0.9 support.
