@@ -1,6 +1,6 @@
 {
   "name": "iced-coffee-script-brunch",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Adds IcedCoffeeScript support to brunch.",
   "author": "Paul Miller (http://paulmillr.com/)",
   "homepage": "https://github.com/brunch/iced-coffee-script-brunch",
@@ -12,14 +12,9 @@
   "scripts": {
     "prepublish": "node setup.js prepublish",
     "postpublish": "node setup.js postpublish",
-    "test": "node setup.js test",
-    "postinstall": "node setup.js postinstall"
-  },
-  "engines": {
-    "node": "~0.6.10 || 0.8 || 0.9"
+    "test": "node setup.js test"
   },
   "dependencies": {
-    "coffee-script": "1.4.0",
     "iced-coffee-script": "1.4.0a"
   },
   "devDependencies": {
