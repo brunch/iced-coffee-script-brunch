@@ -14,10 +14,10 @@
     "test": "node_modules/.bin/mocha --compilers coffee:coffee-script --require test/common.js"
   },
   "dependencies": {
-    "iced-coffee-script": "1.4.0a"
+    "iced-coffee-script": "1.6.2d"
   },
   "devDependencies": {
-    "mocha": "1.8.1",
-    "chai": "1.4.2"
+    "mocha": "1.11.0",
+    "chai": "1.7.0"
   }
 }
