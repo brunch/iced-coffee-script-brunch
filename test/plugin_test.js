@@ -24,3 +24,21 @@ describe('Plugin', function() {
     });
   });
 });
+
+describe('Extention', function() {
+  it('should be default extension is iced', function() {
+    var plugin = new Plugin({});
+    expect(plugin.extension).to.be.equal('iced');
+  });
+
+  it('should be able to change extension', function() {
+    var plugin = new Plugin({
+      plugins: {
+        icedCoffeeScript: {
+          extension: 'coffee'
+        }
+      }
+    });
+    expect(plugin.extension).to.be.equal('coffee');
+  });
+});

@@ -20,7 +20,6 @@ formatClassName = (filename) ->
 module.exports = class IcedCoffeeScriptCompiler
   brunchPlugin: yes
   type: 'javascript'
-  extension: 'iced'
   generators:
     backbone:
       model: (name) ->
@@ -57,6 +56,8 @@ module.exports = class #{formatClassName name}View extends View
 """
 
   constructor: (@config) ->
+    cfg = @config.plugins?.icedCoffeeScript ? {}
+    @extension = cfg.extension ? 'iced'
     null
 
   compile: (data, path, callback) ->
