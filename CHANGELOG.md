@@ -1,3 +1,6 @@
+# iced-coffee-script-brunch 1.7.0 (17 January 2014)
+* Made file extension configurable
+
 # iced-coffee-script-brunch 1.6.0 (22 June 2013)
 * Updated iced-coffee-script to 1.6.3.
 
