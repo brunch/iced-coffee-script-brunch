@@ -3,7 +3,7 @@ Adds [IcedCoffeeScript](http://maxtaco.github.com/coffee-script/) support to
 [brunch](http://brunch.io).
 
 ## Usage
-Install the plugin via npm with `npm install --save iced-coffee-script-brunch`.
+Install the plugin via npm with `npm install --save-dev iced-coffee-script-brunch`.
 
 Or, do manual install:
 
