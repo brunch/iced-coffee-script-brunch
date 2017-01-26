@@ -1,14 +1,14 @@
-## iced-coffee-script-brunch
-Adds [IcedCoffeeScript](http://maxtaco.github.com/coffee-script/) support to
-[brunch](http://brunch.io).
+# iced-coffee-script-brunch
+
+Adds [IcedCoffeeScript](http://maxtaco.github.com/coffee-script/) support to [brunch](http://brunch.io).
 
 ## Usage
+
 Install the plugin via npm with `npm install --save-dev iced-coffee-script-brunch`.
 
 Or, do manual install:
 
-* Add `"iced-coffee-script-brunch": "x.y.z"` to `package.json` of your brunch app.
-  Pick a plugin version that corresponds to your minor (y) brunch version.
+* Add `"iced-coffee-script-brunch": "x.y.z"` to `package.json` of your brunch app. Pick a plugin version that corresponds to your minor (y) brunch version.
 * If you want to use git version of plugin, add
 `"iced-coffee-script-brunch": "git+ssh://git@github.com:brunch/iced-coffee-script-brunch.git"`.
 
@@ -16,7 +16,7 @@ Or, do manual install:
 
 The MIT License (MIT)
 
-Copyright (c) 2012-2013 Paul Miller (http://paulmillr.com)
+Copyright (c) 2012-2017 Paul Miller (http://paulmillr.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
