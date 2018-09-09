@@ -1,6 +1,10 @@
+> ## 🚧 This Plugin Is Deprecated 🚧
+
+> This plugin is deprecated in favor of async functions in [CoffeeScript v2](https://coffeescript.org/#async-functions). Please, update [coffee-script-brunch](https://github.com/brunch/coffee-script-brunch) to `^3` to use new syntax.
+
 # iced-coffee-script-brunch
 
-Adds [IcedCoffeeScript](http://maxtaco.github.com/coffee-script/) support to [brunch](http://brunch.io).
+Adds [IcedCoffeeScript](http://maxtaco.github.com/coffee-script/) support to [Brunch].
 
 ## Usage
 
@@ -35,3 +39,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+<!-- References -->
+
+[Brunch]: http://brunch.io
